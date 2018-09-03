@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class SQLSessionFactoryConfig {
 
 	private static final String CONFIG_FILE = "mysql-config.xml";
-	@Bean
+//	@Bean
 	public SqlSessionFactory getSqlSessionFactory() {
 		InputStream inputStream;
 		try {
